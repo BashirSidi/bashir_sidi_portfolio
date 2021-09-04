@@ -1,0 +1,22 @@
+{
+  "name": "bashir_sidi_portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BashirSidi/bashir_sidi_portfolio.git"
+  },
+  "author": "Bashir Salisu Sidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BashirSidi/bashir_sidi_portfolio/issues"
+  },
+  "homepage": "https://github.com/BashirSidi/bashir_sidi_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
