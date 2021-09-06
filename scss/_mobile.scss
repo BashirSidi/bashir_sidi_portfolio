@@ -45,6 +45,11 @@
       height: 150px;
     }
   }
+
+  .about-info{
+    grid-template-areas: 'bioimage' 'bio' 'title1' 'title2' 'title3';
+    grid-template-columns: 1fr;
+  }
 }
 
 //Smartphones
