@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "My personal portfolio",
   "main": "index.js",
+  "homepage": "https://BashirSidi/bashir_sidi_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/BashirSidi/bashir_sidi_portfolio/issues"
   },
-  "homepage": "https://github.com/BashirSidi/bashir_sidi_portfolio#readme",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1"
   }
 }
