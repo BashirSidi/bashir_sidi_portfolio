@@ -205,6 +205,29 @@ main {
 #about {
   background: #444; }
 
+.projects {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px #932EFF solid; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #fff;
+      transition: all 0.5s ease-out; }
+
+.btn, .btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  color: #932EFF; }
+  .btn:hover, .btn-light:hover {
+    background: #932EFF;
+    color: #00A9F5;
+    transition: all 0.5s ease-out; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -237,8 +260,12 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'title1' 'title2' 'title3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .projects {
+    grid-template-columns: repeat(1fr); } }
